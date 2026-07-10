@@ -1,0 +1,17 @@
+_subdirectory: template
+_templates_suffix: ".jinja"
+_min_copier_version: "9.0.0"
+
+project_name:
+  type: str
+  help: Name of the new project
+
+author_name:
+  type: str
+  help: Copyright holder name for LICENSE
+  default: "Cemal Cici"
+
+year:
+  type: str
+  help: Copyright year for LICENSE
+  default: "2026"
